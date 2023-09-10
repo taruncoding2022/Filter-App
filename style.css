@@ -1,0 +1,30 @@
+body{
+
+ background-position: center; 
+ background-size:cover;  
+}
+
+h3{
+   font-size:25px;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   color:rgb(0, 255, 110);
+}
+
+.btn-success:hover
+{
+  background-color: red;
+
+}
+
+canvas{
+animation-name:example;
+animation-duration: 4s;
+animation-iteration-count:infinite;
+
+}
+
+@keyframes example {
+
+    from{box-shadow: 1px 1px 38px white;}
+    to {box-shadow: 1px 1px 38px cyan;}
+}
